@@ -1,36 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Vuforia;
+﻿using Vuforia;
 using UnityEngine;
 
-public class TargetDetection : MonoBehaviour, ITrackableEventHandler
+public class TargetDetection : DefaultTrackableEventHandler
 {
-    [SerializeField]
+    public GameObject bust;
     private Animator bustAnimator;
-    private TrackableBehaviour mTrackableBehaviour;
 
-    void Start()
+    //Executes when tracker is found
+    protected override void OnTrackingFound()
     {
-        mTrackableBehaviour = GetComponent<TrackableBehaviour>();
-        if (mTrackableBehaviour)
-        {
-            mTrackableBehaviour.RegisterTrackableEventHandler(this);
-        }        
+        base.OnTrackingFound();
     }
 
-    public void OnTrackableStateChanged(TrackableBehaviour.Status previousStatus, TrackableBehaviour.Status newStatus)
+    //Executes when tracker is lost
+    protected override void OnTrackingLost()
     {
-        if (newStatus == TrackableBehaviour.Status.DETECTED ||
-            newStatus == TrackableBehaviour.Status.TRACKED ||
-            newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
-        {
-            // Executes this code when target is tracked
-            bustAnimator.enabled = true;
-        }
-        else
-        {
-            // Executes this code when target is no longer tracked
-            
-        }
+        base.OnTrackingLost();
+        
     }
 }

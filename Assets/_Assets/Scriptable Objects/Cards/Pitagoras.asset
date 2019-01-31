@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fd0e5e4e108d04fab359cb62801b15, type: 3}
+  m_Name: Pitagoras
+  m_EditorClassIdentifier: 
+  name: "Pit\xE1goras"
+  bio: "Pit\xE1goras \u200Bfue un fil\xF3sofo y matem\xE1tico griego considerado el
+    primer matem\xE1tico puro. Contribuy\xF3 de manera significativa en el avance
+    de la matem\xE1tica hel\xE9nica, la geometr\xEDa, la aritm\xE9tica, derivadas
+    particularmente de las relaciones num\xE9ricas, y aplicadas por ejemplo a la teor\xEDa
+    de pesos y medidas, a la teor\xEDa de la m\xFAsica o a la astronom\xEDa. Respecto
+    a la m\xFAsica, sus conceptos de I, IV y V, fueron los pilares fundamentales en
+    la armonizaci\xF3n griega, y son los utilizados hoy en d\xEDa. Es el fundador
+    de la Escuela pitag\xF3rica, una sociedad que, si bien era de naturaleza predominantemente
+    religiosa, se interesaba tambi\xE9n en medicina, cosmolog\xEDa, filosof\xEDa,
+    \xE9tica y pol\xEDtica, entre otras disciplinas. El pitagorismo formul\xF3 principios
+    que influyeron tanto en Plat\xF3n como en Arist\xF3teles y, de manera m\xE1s general,
+    en el posterior desarrollo de la matem\xE1tica y en la filosof\xEDa racional en
+    Occidente."
+  bust: {fileID: 1976717276170504, guid: 4244959fba12c1c47af6958a9c31fa0f, type: 2}
