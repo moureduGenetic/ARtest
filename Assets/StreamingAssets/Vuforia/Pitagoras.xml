@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="pitagoras" size="1.000000 1.176667" />
+    <ImageTarget name="PitagorasCarta" size="1.000000 1.430206" />
   </Tracking>
 </QCARConfig>
